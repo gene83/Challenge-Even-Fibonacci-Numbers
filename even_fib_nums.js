@@ -10,6 +10,8 @@ function _sumFibs(maxFibValue) {
   const array = [];
   let previousNum = 1;
   let currentNum = 1;
+  let newestNum = null;
+
   for (let i = 0; i < maxFibValue; i++) {
     newestNum = previousNum + currentNum;
     if (newestNum <= maxFibValue) {
